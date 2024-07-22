@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex10</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .item:nth-child(1) {
+            order: 2;
+        }
+        .item:nth-child(3) {
+            order: 1;
+        }  
+    </style>
+</head>
+<body>
+    <h5>Ex 10.</h5>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <p>A propriedade order altera a ordem visual dos itens dentro do contêiner sem alterar o HTML.</p>
+</body>
+</html>
